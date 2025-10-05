@@ -1,0 +1,83 @@
+git branch branchname
+git switch branchname
+git checkout branchname
+git checkout -b branchname
+git merge branch name
+
+git branch 68rbatch
+git switch 68rbatch
+git checkout 68rbatch
+git checkout -b 68rbatch
+git merge 68rbatch
+
+git pull origin main->two different commands merge and fetch
+fetch->local bring
+merge->file adding
+
+local folder name:git-68r
+index.html
+<h1>git branches</h1>
+
+remote repo name: 68r-branches
+
+git init
+git add index.html
+git commit -m "main branch"
+git remote add origin httpurl
+git branch -M main
+git push origin main
+
+git branch feature //branch name feature//main
+git branch //$git branch feature *main//feature
+git switch feature
+
+git add .
+git commit -m "feature branch"
+git checkout main
+git switch feature
+git push origin main
+
+remote feature:
+index.html
+index2.html
+
+index2.html
+<h1>New Branch Created Feature</h1>
+
+git checkout main
+git merge feature
+git push origin main
+
+
+index2.html
+<h1>New Branch Created Feature</h1>
+<h1>updated file in new branch</h1>
+
+version.html
+<h1>version branch created</h1>
+
+git checkout -b version
+git branch
+git commit -m "version branch"
+git checkout main
+git merge version
+git push origin main
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
