@@ -39,6 +39,19 @@ ls
 git remote ->origin
 git remote remove origin
 
+cloning process:
+ls
+git clone https://url
+
+git add stages_git_commands
+git commit -m "image file added"
+git push origin main
+
+extra commands:
+git remote add origin https://url
+git branch -M main
+
+
 
 
 
