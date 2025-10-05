@@ -1,0 +1,292 @@
+git init
+git add . (or) git add sunil (or) git add index.html (or) git add filename
+git status
+git commit -m "html file"  //this is not required
+git config --global user.name "wagmaresunil"
+git config -global user.email "wagmaresunil29@gmail.com"
+git commit -m "message"
+git remote add origin https://github.com/wagmaresunil/project-file.git
+git branch -M main   //if it is master change branch name
+git push origin main
+------------------------------------------------------------
+git init
+git add .
+git commit "heading1"
+git push
+
+(or)
+git add .
+git commit "heading1"
+git push
+------------------------------------------------------------
+ls (or) ls -a  //display location files
+git add index.html
+git status 
+git commit -m "index file"
+git remote add origin "remote repository http URL"
+git branch -M main
+git push origin main
+------------------------------------------------------------
+GIT- global information Tracker
+software
+local
+command tool cmd
+to push the files from local to remote
+to clone the files from remote to local
+to pull the files from remote to local
+*we have 3 web platforms using Git
+1.Git
+2.Gitlab
+3.bitbucket
+
+*GitHub:
+o web platform
+o collaboration
+o code storage
+------------------------------------------------------------
+Remote Repository Creates
+file name: Front_End_Engineer  //file name in remote repository
+README.MD  on or off
+Create Repository
+------------------------------------------------------------
+git clone "remote repository URL"
+git log
+git log --all
+git checkout commitid //example:c956 commit id
+
+file:index.html
+<h1>git clone command is used to bring the duplicate copy of remote repository in local</h1>
+------------------------------------------------------------
+git init
+git add .
+git commit -m "new folder"
+git remote add origin "remotehttpurl"
+git branch -M main
+git push origin main
+
+in remote you are added README.MD file then first bring the files from remote to local use this command for pushing files from local to remote
+ls 
+git add 68r-git
+git commit -m "cloning"
+git remote add origin "remoteurl"
+git branch -M main //if it is showing in bash file master
+git push origin main
+
+file exist error use this command
+git remote ->origin //
+git remote remove origin
+---------------------------------------------------------------
+cmd: code .->vs code opens
+filename: index.html
+9th line: <h1>duplicate copy remote to local</h1>
+10th line:<h1>Update Version1</h1>
+
+bash commands:
+git add .
+git commit -m "updated version1"
+git push   //push files from local folder to remote repository
+
+11th line: <h1>Version 2</h1>
+git add .
+git commit -m "version 2"
+git push
+
+note: check all the commits on remote index.html //3 commits 9th 10th 11th line
+---------------------------------------------------------------
+git log
+
+commit id:4960
+version 2
+
+commit id: 6291
+updated version1
+
+commit id: fc89
+updated cloning
+
+commit id: 6c13
+updated intial commit
+
+git checkout 6291 //commit id:6291
+git log
+git log --all
+git checkout commit id
+----------------------------------------------------------------
+topic: Collaboration and pull request
+ls  //desktop/git/cloning_process_68r
+cd cloning_process_68r
+
+git add folder1
+git commit -m "adding folder"
+git push origin main
+
+cmd->code .-> vscode -> index.html
+9th  <h1>hello this is cloning process</h1>
+10th <h1>commit history</h1>
+11th <h1>Rechecking history</h1>
+
+git add folder1
+git commit -m "version1"
+git push origin main
+
+git add folder1
+git commit -m "version2"
+git push origin main
+----------------------------------------------------------------
+Collaboration Process
+collaboration->settings->Collaborators->manage access(add people)->find people->click GitHub notification symbol->email or user id(Wagmaresunil) ->sent invitation to tester
+
+git pull origin main -> combination of fetch and merge conflicts
+Remote file name: DT-project //developer and tester project
+
+local developers file name   //desktop/developers/index.html
+README.MD is not add in remote not required cloning command
+bash commands:
+git init
+git add .
+git commit -m "developers file"
+git remote add origin "remoteurl/DT-PROJECT.git"
+git branch -M main
+git push origin main
+
+local file testers: (DT-PROJECT) 
+git clone "http://remoteurl"
+filename: index.html
+10th line:<h1>without testers there is no developers</h1>
+ls //DT-PROJECT
+cd DT-PROJECT
+
+git add .
+git commit -m "testers"
+git push
+
+local file Developers:
+git pull origin main //download changes from bring remote to local
+
+testers:index.html
+11th line: <h1>Testing Completed</h1>
+git add .
+git commit -m "Testing is completed"
+git push
+
+Developers:
+11th line:<h1>Developing Completed</h1>
+git add .
+git commit -m "Developing completed"
+git pull origin main
+
+open index.html with notepad then remove fetch merge conflicts
+error visible notepad line <<>><<< <4c675> commit id remove it
+
+git add .
+git commit -m "merge conflict resolved"
+git push origin main
+----------------------------------------------------------------
+BRANCHES IN GIT
+git branch branchname
+git checkout branchname
+git switch branchname
+git switch -b branchname
+git merge branchname
+
+bash commands:
+desktop/git-68r (main)
+git init
+git add index.html
+git commit -m "main branch"
+git remote add origin "https://url"  //desktop/master
+git branch -M main
+git push origin main
+
+git branch feature
+git branch
+git switch feature
+git add .
+git commit -m "feature branch"
+git checkout main
+git push origin feature
+
+index.html
+index2.html
+
+git checkout main
+git merge feature
+git push origin main
+
+git checkout -b version  //version folder file direct switch to main
+git branch
+
+git add .
+git commit -m "version branch"
+git checkout main  //version.html <h1>version branch created</h1>
+git merge version
+git push origin main
+
+remote main:
+index.html
+index2.html
+version.html
+
+remote feature:
+index.html
+index2.html
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

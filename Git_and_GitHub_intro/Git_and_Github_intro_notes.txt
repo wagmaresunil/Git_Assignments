@@ -1,0 +1,133 @@
+GIT:
+GLOBAL INFORMATION TRACKER
+Software
+Local
+Command Tool
+To push the files from local to Global
+
+We have 3 Web Platforms using git
+GitHub
+Gitlab
+bitbucket
+
+------------------------------------------------------------------------------------------------------------
+Command	                   Description	                         Example
+git init	             Start a new Git repository	git     init
+git status	              Check file status	                git status
+git add	                      Add files                         git add index.html
+git commit -m ""              Save your version	                git commit -m "Added login page"
+git log	                      View commits	                git log 
+git remote add origin <URL>  Connect to GitHub	 git remote add origin https://github.com/user/repo.git           
+git push	             Upload code	                git push -u origin main
+git pull	             Download updates	                git pull origin main
+git clone	             Copy repo from GitHub	        git clone https://github.com/user/repo.git
+git branch	             Show branches	                git branch
+git checkout	             Switch branch	                git checkout main
+git merge	             Merge changes	                git merge branchname
+
+git status
+git add .
+git commit -m "message"
+git push
+
+1. What is Git?
+Git is a version control system.
+It helps developers track changes in code, save versions, and collaborate with others.
+Think of it like a “save game” system for your project — you can go back to any version anytime!
+
+Example:
+You write some code → Git saves it → You can undo, redo, or share it later.
+
+2. What is GitHub?
+GitHub is a website (cloud platform) where you can store your Git repositories online.
+It helps you share your projects, collaborate with others, and contribute to open-source projects.
+
+Git = tool (installed on your computer)
+GitHub = website (stores your Git code online)
+
+Step 1: Setup Git (first time only)
+git config --global user.name "Your Name"
+git config --global user.email "yourmail@example.com"
+
+git config --global user.name "wagmaresunil"
+git config --global user.email "wagmaresunil29@gmail.com"
+
+2: Create a New Folder and Initialize Git
+mkdir myproject
+cd myproject
+git init
+
+Now Git will track changes inside this folder.
+
+3: Check File Status
+git status
+
+4: Add Files to Git
+git add filename
+git add sunil
+
+add all files:
+git add .
+
+5: Save Changes (Commit)
+git commit -m "Added homepage file"
+
+6: View History
+git log
+
+7: Create or Connect to GitHub Repository
+GitHub.com → create a new repo → copy the repo link.
+Example link:https://github.com/username/myproject.git
+
+Then run:bash
+git remote add origin https://github.com/username/myproject.git
+
+8: Upload Code to GitHub: bash
+git push -u origin main
+
+Sends your code from your computer to GitHub.
+
+9: Download Project from GitHub
+git clone https://github.com/username/myproject.git
+
+Copies a GitHub project to your computer.
+
+
+10: Get Latest Updates
+git pull origin main
+
+11: Remove a File from Git
+git rm filename
+git commit -m "Removed unwanted file"
+or
+git remove sunil
+git commit -m "removed sunil file"
+
+12: Create and Switch Branches
+git branch new-feature
+git checkout new-feature
+Used when you want to work on a new feature safely (without breaking main code).
+
+13: Merge Branches
+git checkout main
+git merge new-feature
+Combines your new branch changes into the main project.
+
+14: Delete a Branch
+git branch -d new-feature
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
