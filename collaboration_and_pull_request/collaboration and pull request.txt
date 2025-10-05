@@ -1,0 +1,105 @@
+Collaboration and pull request
+
+index.html
+<h1>Hlo, this is cloning process</h1>
+<h1>commit history</h1>
+<h1>Rechecking history</h1>
+
+git log
+git log --all
+git checkout commit id
+-------------------------------------------------
+collaboration process
+git pull origin main->combination of fetch and merge
+merge conflicts //pull-bring //origin-destination main branch
+
+testers:updated file remote 2nd person 1st person use bring remote file to local use git pull origin main
+
+git fetch origin main  //remote changes local bring
+git merge origin main  //merge meands adding
+
+project folder
+remote push->project-68r
+
+remote
+clone->files updated
+push ->remote
+
+desktop/developers
+index.html:
+9th line<h1>its our first project as a developers</h1>
+
+git init
+git add .
+git commit -m "dev"
+git remote add origin "https://remote url"  //master
+git branch -M main
+git push origin main
+
+remote name: DT-PROJECT //developers testers project
+settings->collaborators->manage access->add people->vanaja2344(VANAJA THENTU)->add vanaja2344->pending invitation
+
+testers: git cloning https://url
+10th line<h1>without testers there is no developers</h1>
+
+ls  //DT-project
+cd DT-project
+git add .
+git commit -m "Testers"
+git push
+
+11th line: <h1>Testing Completed!!!!!</h1>
+
+git add .
+git commit -m "Completed Testing"
+git push
+
+developers:
+11th line: <h1>Developing Completed!!!!!</h1>
+git pull origin main //bring remote file to local
+
+open file with notepad index.html
+error remove <<<<<HEAD ===== >>>>dbcfd
+
+git add .
+git commit -m "Merge Conflicts Resolved"
+git push origin main
+--------------------------------------------------
+developers
+create folder ->dev ->index.html
+create a repo ->project
+
+collaboration->settings->collaborators->add people->mail/userid
+sent invitation to testers
+----------------------------------------------------
+Testers:
+notification ->accept invitation, which is given by dev for project repo clone repo to local
+update the file
+push the file to remote
+----------------------------------------------------
+developers
+to get the changes from remote to local ->git pull origin main
+----------------------------------------------------
+Merge Conflicts
+testers and developers updated the diffrent code in same file and same line 
+
+resolved:
+pull the changes into local->open through notepad->remove git head and commit id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
