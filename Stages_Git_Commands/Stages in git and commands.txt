@@ -9,9 +9,9 @@ remote directory  ->GitHub repo
 git init
 git add .
 git status
-git commit -m "msg"
-git config --global user.name "username"
-git config --global user.email "useremail"
+git commit -m "html file"
+git config --global user.name "wagmaresunil"
+git config --global user.email "wagmaresunil29@gmail.com"
 git commit -m "msg"
 git remote add origin httpurl
 git branch -M main
