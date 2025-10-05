@@ -1,0 +1,44 @@
+to push the files from local to remote
+we have 4 stages
+
+working directory area ->local
+adding/staging area->unstaged to staged
+committing area->history
+remote directory  ->GitHub repo
+
+git init
+git add .
+git status
+git commit -m "msg"
+git config --global user.name "username"
+git config --global user.email "useremail"
+git commit -m "msg"
+git remote add origin httpurl
+git branch -M main
+git push origin main
+
+git init  //empty repository create
+git add day1.html //adding stage
+git status //tracking untracking status check 
+git commit -m "new file added" 
+git remote add origin "https://url" 
+//local folder to remote  repo link master
+git branch -M main  //main
+git push origin main
+
+configuration only 1 time:
+--------------------------
+git add day2.html
+git status
+git commit -m "new file added"
+git remote add origin "https://url"
+git push origin main
+
+
+ls
+git remote ->origin
+git remote remove origin
+
+
+
+
