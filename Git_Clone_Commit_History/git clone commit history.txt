@@ -1,0 +1,40 @@
+git clone httpurl
+git log 
+git log --all
+git checkout <commit id>
+git remote add origin httpurl
+
+index.html
+9th line<h1>git clone command is used to bring the duplicate copy of remote repo in local </h1>
+
+10th line<h1>updated version1</h1>
+11th line<h1>version2</h1>
+
+bash commands:
+git init
+git add 68r-git
+git commit -m "new folder added"
+
+ls 
+cd day-2-68r
+git push origin main
+
+git add .
+git commit -m "version1"
+git push
+
+git add .
+git commit -m "version2"
+git push
+
+git log
+git checkout fc89
+git log --all
+
+
+
+
+
+
+
+
